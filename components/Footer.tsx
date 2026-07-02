@@ -41,17 +41,17 @@ export function Footer() {
               >
                 PC
               </div>
-              <span className="font-bold text-white text-base">Primary Care of Twin Falls</span>
+              <span className="font-bold text-white text-base">Meridian Family Medicine</span>
             </div>
             <p className="text-white/60 text-sm italic mb-4">
-              Your Health. Your Partner. For Life.
+              Your Health. Our Priority. For Life.
             </p>
             <address className="not-italic space-y-2 text-sm text-white/60">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 text-emerald-400" aria-hidden="true" />
                 <span>
-                  220 2nd Ave S<br />
-                  Twin Falls, ID 83301
+                  1765 W McMillan Rd Suite 110<br />
+                  Meridian, ID 83642
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -140,7 +140,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/40">
           <p>
-            &copy; {currentYear} Primary Care of Twin Falls. All rights reserved.
+            &copy; {currentYear} Meridian Family Medicine. All rights reserved.
           </p>
           <div className="flex items-center gap-4 flex-wrap justify-center">
             <span>ADA Compliant</span>

@@ -76,7 +76,7 @@ export const siteContent: SiteContent = {
   state: 'Idaho',
   zip: '83642', // [DEMO] replace with real zip
   address: '1765 W McMillan Rd Suite 110', // [DEMO] replace with real address
-  phone: '(208) 555-0187', // [DEMO] replace with real phone number
+  phone: '(208) 555-0185', // [DEMO] replace with real phone number
   email: 'info@meridianfamilymed.com', // [DEMO] replace with real email
   website: 'https://meridianfamilymed.com',
   physicianName: 'Dr. Emily Johnson, MD', // [DEMO] replace with real physician name
@@ -251,12 +251,12 @@ export const siteContent: SiteContent = {
   bookingNote:
     'Accepting new patients of all ages. Call our office or use our online patient portal to schedule. Same-day sick visits available for acute illness — call by 10 AM for best availability.', // [DEMO] update with real booking instructions
   heroImageAlt:
-    'Dr. Emily Johnson consulting with a patient at Clearwater Family Medicine in Twin Falls, Idaho', // [DEMO] update alt text when real photo is provided
+    'Dr. Emily Johnson consulting with a patient at Meridian Family Medicine in Meridian, Idaho', // [DEMO] update alt text when real photo is provided
   seoTitle: 'Meridian Family Medicine | Primary Care Doctor Meridian Idaho',
   seoDescription:
     'Family physician accepting new patients in Meridian, ID. Annual physicals, chronic disease management, same-day sick visits. Book online today.',
   seoKeywords:
-    'primary care doctor Twin Falls Idaho, family physician Twin Falls ID, family medicine Magic Valley, annual physical Twin Falls, same-day sick visit Twin Falls Idaho',
+    'primary care doctor Meridian Idaho, family physician Meridian ID, family medicine Treasure Valley, annual physical Meridian, same-day sick visit Meridian Idaho',
   primaryColor: '#15803d',
   secondaryColor: '#0ea5e9',
   accentColor: '#f59e0b',
@@ -271,21 +271,21 @@ export const siteContent: SiteContent = {
         '@id': 'https://primary-demo.demo/#organization',
         name: 'Meridian Family Medicine', // [DEMO] replace with real practice name
         alternateName: 'Meridian Family Med',
-        telephone: '(208) 555-0187', // [DEMO] replace with real phone
-        email: 'info@clearwaterfamilymed.com', // [DEMO] replace with real email
+        telephone: '(208) 555-0185', // [DEMO] replace with real phone
+        email: 'info@meridianfamilymedicine.com', // [DEMO] replace with real email
         url: 'https://primary-demo.demo',
         address: {
           '@type': 'PostalAddress',
-          streetAddress: '671 Poleline Rd Suite A', // [DEMO] replace with real address
-          addressLocality: 'Twin Falls',
+          streetAddress: '1765 W McMillan Rd Suite 110', // [DEMO] replace with real address
+          addressLocality: 'Meridian',
           addressRegion: 'ID',
-          postalCode: '83301', // [DEMO] replace with real zip
+          postalCode: '83642', // [DEMO] replace with real zip
           addressCountry: 'US',
         },
         openingHours: 'Mo-Fr 08:00-17:00', // [DEMO] replace with real hours
         medicalSpecialty: 'GeneralPractice',
         priceRange: '$$',
-        hasMap: 'https://maps.google.com/?q=671+Poleline+Rd+Suite+A+Twin+Falls+ID+83301', // [DEMO] replace with real Google Maps link
+        hasMap: 'https://maps.google.com/?q=1765+W+McMillan+Rd+Suite+110+Meridian+ID+83642', // [DEMO] replace with real Google Maps link
         member: {
           '@id': 'https://primary-demo.demo/#physician',
         },

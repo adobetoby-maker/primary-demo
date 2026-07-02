@@ -265,7 +265,7 @@ export default function HomePage() {
                     className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-3xl font-bold"
                     style={{ backgroundColor: '#064e3b' }}
                   >
-                    LP
+                    EJ
                   </div>
                   <p className="text-gray-500 text-sm font-medium">Dr. Emily Johnson</p>
                   <p className="text-gray-400 text-xs mt-1">MD, FAAFP</p>
