@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { ChevronDown, ChevronUp, FileText, ExternalLink } from 'lucide-react'
 
-const SITE_URL = 'https://primarycaretwinfalls.com' // [DEMO] update with real domain
+const SITE_URL = 'https://meridianfamilymedicine-demo.com' // [DEMO] update with real domain
 
 const faqs = [
   {
@@ -15,12 +15,12 @@ const faqs = [
   {
     question: 'Do I need a referral to see a specialist?',
     answer:
-      'It depends on your insurance plan. Many insurance plans require a referral from your primary care physician before covering specialist visits — if you see a specialist without a required referral, you may be responsible for the full cost. At Primary Care of Twin Falls, Dr. Patel coordinates specialist referrals as part of your ongoing care. If you need to see a cardiologist, endocrinologist, dermatologist, or any other specialist, call our office and we will facilitate the referral, communicate your health history to the specialist, and follow up on your results. This coordination is one of the most important functions of having a primary care physician.',
+      'It depends on your insurance plan. Many insurance plans require a referral from your primary care physician before covering specialist visits — if you see a specialist without a required referral, you may be responsible for the full cost. At Meridian Family Medicine, Dr. Johnson coordinates specialist referrals as part of your ongoing care. If you need to see a cardiologist, endocrinologist, dermatologist, or any other specialist, call our office and we will facilitate the referral, communicate your health history to the specialist, and follow up on your results. This coordination is one of the most important functions of having a primary care physician.',
   },
   {
     question: 'What should I bring to my first appointment?',
     answer:
-      'For your first visit as a new patient, please bring: a valid photo ID, your insurance card, a complete list of all current medications including dosages and frequency (prescription, over-the-counter, and supplements), any prior medical records, lab results, or imaging reports you have available, your vaccination history if you have it, and a list of any questions or health concerns you want to discuss with Dr. Patel. Arriving 15 minutes early for new patient paperwork is recommended. If you have records from a previous physician, we can also accept records electronically — call our office for the secure fax number.',
+      'For your first visit as a new patient, please bring: a valid photo ID, your insurance card, a complete list of all current medications including dosages and frequency (prescription, over-the-counter, and supplements), any prior medical records, lab results, or imaging reports you have available, your vaccination history if you have it, and a list of any questions or health concerns you want to discuss with Dr. Johnson. Arriving 15 minutes early for new patient paperwork is recommended. If you have records from a previous physician, we can also accept records electronically — call our office for the secure fax number.',
   },
   {
     question: 'Do you offer telehealth visits?',
@@ -124,7 +124,7 @@ export default function PatientResourcesPage() {
           </nav>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">Patient Resources</h1>
           <p className="text-white/70 mt-2">
-            Everything you need to know as a patient at Primary Care of Twin Falls.
+            Everything you need to know as a patient at Meridian Family Medicine.
           </p>
         </div>
       </section>
@@ -213,7 +213,7 @@ export default function PatientResourcesPage() {
                 {/* [DEMO] replace with real portal description */}
                 Access your health records, lab results, appointment history, and medication list
                 through our secure online patient portal. Request prescription refills, send messages
-                to Dr. Patel&apos;s team, and view your visit summaries — all in one place. [DEMO]
+                to Dr. Johnson&apos;s team, and view your visit summaries — all in one place. [DEMO]
               </p>
             </div>
             {/* [DEMO] replace href with real patient portal URL */}

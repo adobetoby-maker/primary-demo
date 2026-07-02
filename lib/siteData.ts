@@ -1,16 +1,16 @@
-export const PRACTICE_NAME = 'Primary Care of Twin Falls'
+export const PRACTICE_NAME = 'Meridian Family Medicine'
 
 export const PRACTICE_PHONE = '(208) 555-0185'
 
-export const PRACTICE_ADDRESS = '220 2nd Ave S, Twin Falls, ID 83301'
+export const PRACTICE_ADDRESS = '1765 W McMillan Rd Suite 110, Meridian, ID 83642'
 
-export const PRACTICE_CITY = 'Twin Falls, ID'
+export const PRACTICE_CITY = 'Meridian, ID'
 
-export const TAGLINE = 'Your Health. Your Partner. For Life.'
+export const TAGLINE = 'Your Health. Our Priority. For Life.'
 
 export const URGENCY = 'Same-Day & Next-Day Sick Appointments'
 
-export const WEBSITE_URL = 'https://primarycaretwinfalls.com' // [DEMO] replace with real domain
+export const WEBSITE_URL = 'https://meridianfamilymedicine-demo.com' // [DEMO] replace with real domain
 
 export interface Physician {
   name: string
@@ -25,15 +25,15 @@ export interface Physician {
 }
 
 export const PHYSICIAN: Physician = {
-  name: 'Dr. Lisa M. Patel',
+  name: 'Dr. Emily Johnson',
   credentials: 'MD, FAAFP',
   role: 'Board-Certified Family Medicine Physician',
   specialty: 'Family Medicine / Primary Care',
-  experience: '16 years',
+  experience: '12 years',
   education: 'University of Michigan Medical School',
-  residency: 'UW Family Medicine Residency, Seattle, WA',
+  residency: 'UW Family Medicine Residency',
   hospital: "St. Luke's Magic Valley Regional Medical Center",
-  bio: "Dr. Patel has dedicated 16 years to building long-term relationships with patients and families across the Magic Valley. A graduate of the University of Michigan Medical School and UW Family Medicine Residency, she brings a depth of expertise and a genuine passion for whole-person care. She is board-certified by the American Board of Family Medicine and holds fellowship status (FAAFP) with the American Academy of Family Physicians.", // [DEMO] replace with real physician bio
+  bio: "Dr. Johnson has dedicated 12 years to building long-term relationships with patients and families across the Treasure Valley. A graduate of the University of Michigan Medical School and UW Family Medicine Residency, she brings a depth of expertise and a genuine passion for whole-person care. She is board-certified by the American Board of Family Medicine and holds fellowship status (FAAFP) with the American Academy of Family Physicians.", // [DEMO] replace with real physician bio
 }
 
 export const SERVICES: string[] = [

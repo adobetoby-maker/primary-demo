@@ -5,7 +5,7 @@ import { Navigation } from '@/components/Navigation'
 import { Footer } from '@/components/Footer'
 import Link from 'next/link'
 
-const SITE_URL = 'https://primarycaretwinfalls.com' // [DEMO] replace with real domain
+const SITE_URL = 'https://meridianfamilymedicine-demo.com' // [DEMO] replace with real domain
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteContent.website || 'https://demo.local'),
@@ -38,19 +38,19 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': ['MedicalOrganization', 'LocalBusiness'],
   '@id': `${SITE_URL}/#organization`,
-  name: 'Primary Care of Twin Falls',
-  alternateName: 'Primary Care Twin Falls',
+  name: 'Meridian Family Medicine',
+  alternateName: 'Meridian Family Med',
   description:
-    'Board-certified family medicine practice in Twin Falls, Idaho offering annual wellness exams, chronic disease management, same-day sick visits, preventive screenings, and more.',
+    'Board-certified family medicine practice in Meridian, Idaho offering annual wellness exams, chronic disease management, same-day sick visits, preventive screenings, and more.',
   url: SITE_URL,
   telephone: '+12085550185',
-  email: 'info@primarycaretwinfalls.com', // [DEMO] replace with real email
+  email: 'info@meridianfamilymedicine-demo.com', // [DEMO] replace with real email
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '220 2nd Ave S',
-    addressLocality: 'Twin Falls',
+    streetAddress: '1765 W McMillan Rd Suite 110',
+    addressLocality: 'Meridian',
     addressRegion: 'ID',
-    postalCode: '83301',
+    postalCode: '83642',
     addressCountry: 'US',
   },
   geo: {
@@ -74,7 +74,7 @@ const organizationSchema = {
   ],
   medicalSpecialty: 'GeneralPractice',
   priceRange: '$$',
-  hasMap: 'https://maps.google.com/?q=220+2nd+Ave+S+Twin+Falls+ID+83301', // [DEMO] verify map link
+  hasMap: 'https://maps.google.com/?q=1765+W+McMillan+Rd+Suite+110+Meridian+ID+83642', // [DEMO] verify map link
   member: {
     '@id': `${SITE_URL}/#physician`,
   },
@@ -88,7 +88,7 @@ const physicianSchema = {
   '@context': 'https://schema.org',
   '@type': ['Physician', 'Person'],
   '@id': `${SITE_URL}/#physician`,
-  name: 'Dr. Lisa M. Patel',
+  name: 'Dr. Emily Johnson',
   givenName: 'Lisa',
   familyName: 'Patel',
   honorificPrefix: 'Dr.',
@@ -96,7 +96,7 @@ const physicianSchema = {
   jobTitle: 'Board-Certified Family Medicine Physician',
   medicalSpecialty: 'GeneralPractice',
   description:
-    'Dr. Lisa M. Patel is a board-certified family medicine physician with 16 years of experience, serving patients in Twin Falls, Idaho. She completed her training at the University of Michigan Medical School and UW Family Medicine Residency.',
+    'Dr. Emily Johnson is a board-certified family medicine physician with 12 years of experience, serving patients in Meridian, Idaho. She completed her training at the University of Michigan Medical School and UW Family Medicine Residency.',
   worksFor: {
     '@id': `${SITE_URL}/#organization`,
   },
@@ -105,7 +105,7 @@ const physicianSchema = {
     name: "St. Luke's Magic Valley Regional Medical Center",
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Twin Falls',
+      addressLocality: 'Meridian',
       addressRegion: 'ID',
     },
   },

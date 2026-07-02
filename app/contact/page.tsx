@@ -2,26 +2,26 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { MapPin, Phone, Clock, Mail } from 'lucide-react'
 
-const SITE_URL = 'https://primarycaretwinfalls.com' // [DEMO] update with real domain
+const SITE_URL = 'https://meridianfamilymedicine-demo.com' // [DEMO] update with real domain
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Primary Care of Twin Falls, ID',
+  title: 'Contact Us | Meridian Family Medicine, ID',
   description:
-    'Contact Primary Care of Twin Falls. Address: 220 2nd Ave S, Twin Falls, ID 83301. Phone: (208) 555-0185. Mon–Fri 8 AM–5 PM, Sat 9 AM–12 PM.',
+    'Contact Meridian Family Medicine. Address: 1765 W McMillan Rd Suite 110, Meridian, ID 83642. Phone: (208) 555-0185. Mon–Fri 8 AM–5 PM, Sat 9 AM–12 PM.',
   alternates: {
     canonical: `${SITE_URL}/contact`,
   },
   openGraph: {
-    title: 'Contact Us | Primary Care of Twin Falls, ID',
+    title: 'Contact Us | Meridian Family Medicine, ID',
     description:
-      'Contact Primary Care of Twin Falls. 220 2nd Ave S, Twin Falls, ID 83301. (208) 555-0185.',
+      'Contact Meridian Family Medicine. 1765 W McMillan Rd Suite 110, Meridian, ID 83642. (208) 555-0185.',
     url: `${SITE_URL}/contact`,
-    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Contact Primary Care Twin Falls' }],
+    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Contact Meridian Family Med' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact Us | Primary Care of Twin Falls, ID',
-    description: 'Contact Primary Care of Twin Falls. 220 2nd Ave S, Twin Falls, ID. (208) 555-0185.',
+    title: 'Contact Us | Meridian Family Medicine, ID',
+    description: 'Contact Meridian Family Medicine. 1765 W McMillan Rd Suite 110, Meridian, ID. (208) 555-0185.',
     images: [`${SITE_URL}/og-image.jpg`],
   },
 }
@@ -29,17 +29,17 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': ['MedicalOrganization', 'LocalBusiness'],
-  name: 'Primary Care of Twin Falls',
-  description: 'Board-certified family medicine practice in Twin Falls, Idaho.',
+  name: 'Meridian Family Medicine',
+  description: 'Board-certified family medicine practice in Meridian, Idaho.',
   url: SITE_URL,
   telephone: '+12085550185',
-  email: 'info@primarycaretwinfalls.com', // [DEMO] replace with real email
+  email: 'info@meridianfamilymedicine-demo.com', // [DEMO] replace with real email
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '220 2nd Ave S',
-    addressLocality: 'Twin Falls',
+    streetAddress: '1765 W McMillan Rd Suite 110',
+    addressLocality: 'Meridian',
     addressRegion: 'ID',
-    postalCode: '83301',
+    postalCode: '83642',
     addressCountry: 'US',
   },
   geo: {
@@ -61,7 +61,7 @@ const localBusinessSchema = {
       closes: '12:00',
     },
   ],
-  hasMap: 'https://maps.google.com/?q=220+2nd+Ave+S+Twin+Falls+ID+83301', // [DEMO] verify
+  hasMap: 'https://maps.google.com/?q=1765+W+McMillan+Rd+Suite+110+Meridian+ID+83642', // [DEMO] verify
   medicalSpecialty: 'GeneralPractice',
   priceRange: '$$',
 }
@@ -127,11 +127,11 @@ export default function ContactPage() {
                   <div>
                     <h2 className="font-bold text-gray-900 mb-1">Office Address</h2>
                     <address className="not-italic text-gray-600 text-sm leading-relaxed">
-                      220 2nd Ave S<br />
-                      Twin Falls, ID 83301
+                      1765 W McMillan Rd Suite 110<br />
+                      Meridian, ID 83642
                     </address>
                     <a
-                      href="https://maps.google.com/?q=220+2nd+Ave+S+Twin+Falls+ID+83301"
+                      href="https://maps.google.com/?q=1765+W+McMillan+Rd+Suite+110+Meridian+ID+83642"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block mt-2 text-xs font-semibold text-emerald-700 hover:underline cursor-pointer"
@@ -144,12 +144,12 @@ export default function ContactPage() {
                 {/* Map placeholder [DEMO] */}
                 <div
                   className="rounded-xl overflow-hidden bg-gray-100 h-52 flex items-center justify-center border border-gray-200"
-                  aria-label="Map of 220 2nd Ave S, Twin Falls, ID [DEMO — replace with Google Maps embed]"
+                  aria-label="Map of 1765 W McMillan Rd Suite 110, Meridian, ID [DEMO — replace with Google Maps embed]"
                 >
                   <div className="text-center p-6">
                     <MapPin className="w-8 h-8 text-gray-300 mx-auto mb-2" aria-hidden="true" />
-                    <p className="text-gray-400 text-sm font-medium">220 2nd Ave S</p>
-                    <p className="text-gray-400 text-sm">Twin Falls, ID 83301</p>
+                    <p className="text-gray-400 text-sm font-medium">1765 W McMillan Rd Suite 110</p>
+                    <p className="text-gray-400 text-sm">Meridian, ID 83642</p>
                     <p className="text-gray-300 text-xs mt-3 italic">
                       [DEMO] Replace with Google Maps embed
                     </p>
@@ -197,10 +197,10 @@ export default function ContactPage() {
                     <h2 className="font-bold text-gray-900 mb-1">Email</h2>
                     {/* [DEMO] replace with real email */}
                     <a
-                      href="mailto:info@primarycaretwinfalls.com"
+                      href="mailto:info@meridianfamilymedicine-demo.com"
                       className="text-emerald-700 hover:underline text-sm cursor-pointer"
                     >
-                      info@primarycaretwinfalls.com [DEMO]
+                      info@meridianfamilymedicine-demo.com [DEMO]
                     </a>
                     <p className="text-gray-400 text-xs mt-1">
                       For non-urgent inquiries only. For medical questions, please call.

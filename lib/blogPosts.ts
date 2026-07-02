@@ -18,7 +18,7 @@ export const blogPosts: BlogPost[] = [
     readingTime: '8 min read',
     category: 'Preventive Care',
     content: `
-<p>If you're like most adults, your annual physical exam is something you know you should do but keep putting off. Maybe you feel fine. Maybe you're busy. Maybe you're not entirely sure what even happens during that appointment. I hear this every week in our Twin Falls clinic — and my answer is always the same: the annual physical is not about treating a problem. It's about finding problems before they become serious, and building a relationship with your doctor that makes every health decision you face easier.</p>
+<p>If you're like most adults, your annual physical exam is something you know you should do but keep putting off. Maybe you feel fine. Maybe you're busy. Maybe you're not entirely sure what even happens during that appointment. I hear this every week in our Meridian clinic — and my answer is always the same: the annual physical is not about treating a problem. It's about finding problems before they become serious, and building a relationship with your doctor that makes every health decision you face easier.</p>
 
 <p>Here's exactly what you can expect when you come in for your yearly wellness visit at a primary care practice, what labs we order and why, and what you should do to prepare.</p>
 
@@ -73,12 +73,12 @@ export const blogPosts: BlogPost[] = [
     slug: 'managing-type-2-diabetes-lifestyle',
     title: 'Managing Type 2 Diabetes: Lifestyle Changes That Work',
     metaDescription:
-      'Proven diet, exercise, and monitoring strategies for controlling blood sugar naturally. A Twin Falls primary care physician explains what actually moves the needle for type 2 diabetes.',
+      'Proven diet, exercise, and monitoring strategies for controlling blood sugar naturally. A Meridian primary care physician explains what actually moves the needle for type 2 diabetes.',
     date: '2025-10-15',
     readingTime: '9 min read',
     category: 'Chronic Disease',
     content: `
-<p>A type 2 diabetes diagnosis is not a sentence — it's a turning point. Millions of Americans are managing the condition with blood sugar levels in or near the normal range, and many have achieved this not through medication alone but through deliberate, evidence-based lifestyle changes. In our Twin Falls primary care clinic, I have watched patients reduce their HbA1c by two or three percentage points in a matter of months simply by changing what they eat, how they move, and how consistently they monitor. This article explains specifically what those changes look like and why they work.</p>
+<p>A type 2 diabetes diagnosis is not a sentence — it's a turning point. Millions of Americans are managing the condition with blood sugar levels in or near the normal range, and many have achieved this not through medication alone but through deliberate, evidence-based lifestyle changes. In our Meridian primary care clinic, I have watched patients reduce their HbA1c by two or three percentage points in a matter of months simply by changing what they eat, how they move, and how consistently they monitor. This article explains specifically what those changes look like and why they work.</p>
 
 <h2>Understanding Why Blood Sugar Rises in Type 2 Diabetes</h2>
 
@@ -142,7 +142,7 @@ export const blogPosts: BlogPost[] = [
     content: `
 <p>Hypertension earns its reputation as the "silent killer" for one specific reason: it produces no symptoms. A patient can walk around for a decade with blood pressure running at 155/95 and feel completely normal — while, inside, the sustained pressure is damaging arterial walls, straining the heart muscle, degrading kidney function, and raising their stroke risk by two to four times the population average. The silence is the danger. By the time hypertension announces itself with a heart attack, a stroke, or kidney failure, the damage has already been accumulating for years.</p>
 
-<p>In our Twin Falls primary care clinic, high blood pressure is one of the most common conditions we manage. It is also one of the most treatable — when caught early and addressed systematically. This article explains what hypertension actually is, how we diagnose it, what it does to your body over time, and exactly what your best options look like for treatment in 2025.</p>
+<p>In our Meridian primary care clinic, high blood pressure is one of the most common conditions we manage. It is also one of the most treatable — when caught early and addressed systematically. This article explains what hypertension actually is, how we diagnose it, what it does to your body over time, and exactly what your best options look like for treatment in 2025.</p>
 
 <h2>What Is Blood Pressure, and What Do the Numbers Mean?</h2>
 

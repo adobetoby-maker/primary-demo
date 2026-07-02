@@ -2,26 +2,26 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CheckCircle } from 'lucide-react'
 
-const SITE_URL = 'https://primarycaretwinfalls.com' // [DEMO] update with real domain
+const SITE_URL = 'https://meridianfamilymedicine-demo.com' // [DEMO] update with real domain
 
 export const metadata: Metadata = {
-  title: 'Conditions We Treat | Primary Care Twin Falls, ID',
+  title: 'Conditions We Treat | Primary Care Meridian, ID',
   description:
-    'Dr. Lisa M. Patel treats diabetes, hypertension, high cholesterol, thyroid disorders, asthma, depression, obesity, and more in Twin Falls, Idaho.',
+    'Dr. Emily Johnson treats diabetes, hypertension, high cholesterol, thyroid disorders, asthma, depression, obesity, and more in Meridian, Idaho.',
   alternates: {
     canonical: `${SITE_URL}/conditions`,
   },
   openGraph: {
-    title: 'Conditions We Treat | Primary Care Twin Falls, ID',
+    title: 'Conditions We Treat | Primary Care Meridian, ID',
     description:
-      'Dr. Lisa M. Patel treats diabetes, hypertension, high cholesterol, thyroid disorders, asthma, depression, obesity, and more in Twin Falls, Idaho.',
+      'Dr. Emily Johnson treats diabetes, hypertension, high cholesterol, thyroid disorders, asthma, depression, obesity, and more in Meridian, Idaho.',
     url: `${SITE_URL}/conditions`,
-    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Conditions Treated in Twin Falls ID' }],
+    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Conditions Treated in Meridian ID' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Conditions We Treat | Primary Care Twin Falls, ID',
-    description: 'Dr. Lisa M. Patel treats diabetes, hypertension, high cholesterol, thyroid disorders, and more.',
+    title: 'Conditions We Treat | Primary Care Meridian, ID',
+    description: 'Dr. Emily Johnson treats diabetes, hypertension, high cholesterol, thyroid disorders, and more.',
     images: [`${SITE_URL}/og-image.jpg`],
   },
 }
@@ -39,42 +39,42 @@ const conditions = [
   {
     name: 'Diabetes',
     description:
-      'Diabetes management in primary care includes HbA1c monitoring, fasting glucose and lipid panel review, continuous glucose monitor (CGM) interpretation, medication optimization (including GLP-1 agonists and SGLT-2 inhibitors), and lifestyle counseling. We also screen for and manage diabetic complications including nephropathy, neuropathy, retinopathy, and cardiovascular risk. Dr. Patel helps patients set realistic glycemic targets and builds structured care plans that fit their daily lives.',
+      'Diabetes management in primary care includes HbA1c monitoring, fasting glucose and lipid panel review, continuous glucose monitor (CGM) interpretation, medication optimization (including GLP-1 agonists and SGLT-2 inhibitors), and lifestyle counseling. We also screen for and manage diabetic complications including nephropathy, neuropathy, retinopathy, and cardiovascular risk. Dr. Johnson helps patients set realistic glycemic targets and builds structured care plans that fit their daily lives.',
   },
   {
     name: 'Hypertension',
     description:
-      'High blood pressure is diagnosed through confirmed readings on multiple occasions and managed with a combination of lifestyle modification (sodium reduction, DASH diet, exercise, weight loss) and antihypertensive medications when indicated. Treatment targets are individualized based on age, cardiovascular risk, and comorbid conditions. Dr. Patel monitors blood pressure trends over time, evaluates for end-organ damage, and adjusts medication regimens to reach target blood pressure while minimizing side effects.',
+      'High blood pressure is diagnosed through confirmed readings on multiple occasions and managed with a combination of lifestyle modification (sodium reduction, DASH diet, exercise, weight loss) and antihypertensive medications when indicated. Treatment targets are individualized based on age, cardiovascular risk, and comorbid conditions. Dr. Johnson monitors blood pressure trends over time, evaluates for end-organ damage, and adjusts medication regimens to reach target blood pressure while minimizing side effects.',
   },
   {
     name: 'High Cholesterol',
     description:
-      'Elevated LDL cholesterol is a primary modifiable risk factor for heart attack and stroke. Dr. Patel orders fasting lipid panels and calculates 10-year cardiovascular risk using the ACC/AHA Pooled Cohort equations to determine whether statin therapy is appropriate. Dietary counseling, plant sterol recommendations, and physical activity guidance are offered alongside medication management. Statins, ezetimibe, and PCSK9 inhibitors are prescribed based on risk level and patient-specific factors.',
+      'Elevated LDL cholesterol is a primary modifiable risk factor for heart attack and stroke. Dr. Johnson orders fasting lipid panels and calculates 10-year cardiovascular risk using the ACC/AHA Pooled Cohort equations to determine whether statin therapy is appropriate. Dietary counseling, plant sterol recommendations, and physical activity guidance are offered alongside medication management. Statins, ezetimibe, and PCSK9 inhibitors are prescribed based on risk level and patient-specific factors.',
   },
   {
     name: 'Thyroid Disorders',
     description:
-      'Hypothyroidism (underactive thyroid) and hyperthyroidism (overactive thyroid) are among the most commonly missed conditions in primary care because their symptoms — fatigue, weight changes, mood shifts, cold or heat intolerance — overlap with many other conditions. Dr. Patel screens with TSH and confirms with additional thyroid hormone testing when indicated. Hypothyroidism is managed with levothyroxine titrated to achieve a TSH in the target range. Hyperthyroidism evaluation may involve referral to endocrinology for radioactive iodine or medication management.',
+      'Hypothyroidism (underactive thyroid) and hyperthyroidism (overactive thyroid) are among the most commonly missed conditions in primary care because their symptoms — fatigue, weight changes, mood shifts, cold or heat intolerance — overlap with many other conditions. Dr. Johnson screens with TSH and confirms with additional thyroid hormone testing when indicated. Hypothyroidism is managed with levothyroxine titrated to achieve a TSH in the target range. Hyperthyroidism evaluation may involve referral to endocrinology for radioactive iodine or medication management.',
   },
   {
     name: 'Asthma',
     description:
-      'Asthma management in primary care begins with confirming the diagnosis (pulmonary function testing referral when needed), identifying triggers, classifying severity, and developing a written asthma action plan. Dr. Patel prescribes appropriate controller inhalers (inhaled corticosteroids, LABAs, combination formulas) and rescue bronchodilators based on current GINA and NAEPP guidelines. Patients with poorly controlled or severe asthma are referred to pulmonology. Seasonal and year-round environmental trigger modification is addressed at every visit.',
+      'Asthma management in primary care begins with confirming the diagnosis (pulmonary function testing referral when needed), identifying triggers, classifying severity, and developing a written asthma action plan. Dr. Johnson prescribes appropriate controller inhalers (inhaled corticosteroids, LABAs, combination formulas) and rescue bronchodilators based on current GINA and NAEPP guidelines. Patients with poorly controlled or severe asthma are referred to pulmonology. Seasonal and year-round environmental trigger modification is addressed at every visit.',
   },
   {
     name: 'Depression & Anxiety',
     description:
-      'Depression and anxiety disorders are among the most prevalent conditions in primary care. Dr. Patel uses validated screening tools (PHQ-9 for depression, GAD-7 for anxiety) at annual visits and whenever symptoms are reported. First-line treatment includes SSRIs and SNRIs, with medication selection guided by the patient\'s symptom profile, prior treatment history, and comorbidities. Therapy referrals are coordinated with local behavioral health partners. Patients with treatment-resistant depression, bipolar features, or active suicidal ideation are referred for psychiatric evaluation.',
+      'Depression and anxiety disorders are among the most prevalent conditions in primary care. Dr. Johnson uses validated screening tools (PHQ-9 for depression, GAD-7 for anxiety) at annual visits and whenever symptoms are reported. First-line treatment includes SSRIs and SNRIs, with medication selection guided by the patient\'s symptom profile, prior treatment history, and comorbidities. Therapy referrals are coordinated with local behavioral health partners. Patients with treatment-resistant depression, bipolar features, or active suicidal ideation are referred for psychiatric evaluation.',
   },
   {
     name: 'Obesity',
     description:
-      'Obesity is a chronic, complex disease that requires the same structured long-term management as any other chronic condition. Dr. Patel provides comprehensive weight management including BMI and waist circumference assessment, dietary counseling, physical activity prescription, behavioral strategies, and pharmacotherapy when appropriate. Newer weight loss medications — including GLP-1 receptor agonists (semaglutide, tirzepatide) — have transformed obesity treatment and are prescribed for eligible patients. Bariatric surgery referral is discussed with patients meeting appropriate criteria.',
+      'Obesity is a chronic, complex disease that requires the same structured long-term management as any other chronic condition. Dr. Johnson provides comprehensive weight management including BMI and waist circumference assessment, dietary counseling, physical activity prescription, behavioral strategies, and pharmacotherapy when appropriate. Newer weight loss medications — including GLP-1 receptor agonists (semaglutide, tirzepatide) — have transformed obesity treatment and are prescribed for eligible patients. Bariatric surgery referral is discussed with patients meeting appropriate criteria.',
   },
   {
     name: 'Urinary Tract Infections',
     description:
-      'Urinary tract infections (UTIs) are among the most common bacterial infections in primary care, particularly in women. Dr. Patel diagnoses UTIs through urinalysis and urine culture, prescribes appropriate antibiotic therapy based on local resistance patterns and culture sensitivities, and manages uncomplicated and complicated UTIs including those in pregnant women and older adults. Patients with recurrent UTIs (three or more per year) receive evaluation for underlying risk factors and may benefit from prophylactic strategies. Pyelonephritis (kidney infection) is evaluated and treated with close follow-up or referral as clinically indicated.',
+      'Urinary tract infections (UTIs) are among the most common bacterial infections in primary care, particularly in women. Dr. Johnson diagnoses UTIs through urinalysis and urine culture, prescribes appropriate antibiotic therapy based on local resistance patterns and culture sensitivities, and manages uncomplicated and complicated UTIs including those in pregnant women and older adults. Patients with recurrent UTIs (three or more per year) receive evaluation for underlying risk factors and may benefit from prophylactic strategies. Pyelonephritis (kidney infection) is evaluated and treated with close follow-up or referral as clinically indicated.',
   },
 ]
 
@@ -158,7 +158,7 @@ export default function ConditionsPage() {
             Managing a Chronic Condition?
           </h2>
           <p className="text-white/70 mb-8 max-w-lg mx-auto">
-            Dr. Patel offers structured, evidence-based chronic disease management with regular
+            Dr. Johnson offers structured, evidence-based chronic disease management with regular
             follow-up, lab monitoring, and personalized treatment plans.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

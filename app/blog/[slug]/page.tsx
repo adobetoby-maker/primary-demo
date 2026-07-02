@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { blogPosts } from '@/lib/blogPosts'
 import { Clock, ArrowLeft, Calendar } from 'lucide-react'
 
-const SITE_URL = 'https://primarycaretwinfalls.com' // [DEMO] update with real domain
+const SITE_URL = 'https://meridianfamilymedicine-demo.com' // [DEMO] update with real domain
 
 interface Params {
   params: Promise<{ slug: string }>
@@ -19,11 +19,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const post = blogPosts.find((p) => p.slug === slug)
 
   if (!post) {
-    return { title: 'Post Not Found | Primary Care of Twin Falls' }
+    return { title: 'Post Not Found | Meridian Family Medicine' }
   }
 
   return {
-    title: `${post.title} | Primary Care of Twin Falls`,
+    title: `${post.title} | Meridian Family Medicine`,
     description: post.metaDescription,
     alternates: {
       canonical: `${SITE_URL}/blog/${post.slug}`,
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       url: `${SITE_URL}/blog/${post.slug}`,
       type: 'article',
       publishedTime: post.date,
-      authors: ['Dr. Lisa M. Patel, MD, FAAFP'],
+      authors: ['Dr. Emily Johnson, MD, FAAFP'],
       images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: post.title }],
     },
     twitter: {
@@ -68,18 +68,18 @@ export default async function BlogPostPage({ params }: Params) {
     dateModified: post.date,
     author: {
       '@type': 'Person',
-      name: 'Dr. Lisa M. Patel',
+      name: 'Dr. Emily Johnson',
       honorificSuffix: 'MD, FAAFP',
       jobTitle: 'Board-Certified Family Medicine Physician',
       worksFor: {
         '@type': 'MedicalOrganization',
-        name: 'Primary Care of Twin Falls',
+        name: 'Meridian Family Medicine',
         url: SITE_URL,
       },
     },
     publisher: {
       '@type': 'MedicalOrganization',
-      name: 'Primary Care of Twin Falls',
+      name: 'Meridian Family Medicine',
       url: SITE_URL,
     },
     url: `${SITE_URL}/blog/${post.slug}`,
@@ -201,11 +201,11 @@ export default async function BlogPostPage({ params }: Params) {
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1">
                 About the Author
               </p>
-              <p className="font-bold text-gray-900 mb-1">Dr. Lisa M. Patel, MD, FAAFP</p>
+              <p className="font-bold text-gray-900 mb-1">Dr. Emily Johnson, MD, FAAFP</p>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
                 {/* [DEMO] replace with real physician bio */}
-                Dr. Patel is a board-certified family medicine physician with 16 years of experience
-                serving patients in Twin Falls, Idaho. She is a graduate of the University of Michigan
+                Dr. Johnson is a board-certified family medicine physician with 12 years of experience
+                serving patients in Meridian, Idaho. She is a graduate of the University of Michigan
                 Medical School and completed her residency at UW Family Medicine. She holds privileges
                 at St. Luke&apos;s Magic Valley Regional Medical Center.
               </p>
@@ -227,7 +227,7 @@ export default async function BlogPostPage({ params }: Params) {
               Questions about your health?
             </h2>
             <p className="text-white/70 text-sm mb-5">
-              Schedule a consultation with Dr. Patel for personalized, evidence-based guidance.
+              Schedule a consultation with Dr. Johnson for personalized, evidence-based guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link

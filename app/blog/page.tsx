@@ -3,26 +3,26 @@ import Link from 'next/link'
 import { blogPosts } from '@/lib/blogPosts'
 import { Clock, ArrowRight } from 'lucide-react'
 
-const SITE_URL = 'https://primarycaretwinfalls.com' // [DEMO] update with real domain
+const SITE_URL = 'https://meridianfamilymedicine-demo.com' // [DEMO] update with real domain
 
 export const metadata: Metadata = {
-  title: 'Health Blog | Primary Care of Twin Falls, ID',
+  title: 'Health Blog | Meridian Family Medicine, ID',
   description:
-    'Patient education articles from Dr. Lisa M. Patel, MD, FAAFP — covering preventive care, chronic disease management, and health topics relevant to Twin Falls, Idaho patients.',
+    'Patient education articles from Dr. Emily Johnson, MD, FAAFP — covering preventive care, chronic disease management, and health topics relevant to Meridian, Idaho patients.',
   alternates: {
     canonical: `${SITE_URL}/blog`,
   },
   openGraph: {
-    title: 'Health Blog | Primary Care of Twin Falls, ID',
+    title: 'Health Blog | Meridian Family Medicine, ID',
     description:
-      'Patient education articles from Dr. Lisa M. Patel — preventive care, chronic disease, and health topics for Twin Falls, Idaho patients.',
+      'Patient education articles from Dr. Emily Johnson — preventive care, chronic disease, and health topics for Meridian, Idaho patients.',
     url: `${SITE_URL}/blog`,
-    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Primary Care Health Blog Twin Falls' }],
+    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Meridian Family Medicine Health Blog' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Health Blog | Primary Care of Twin Falls, ID',
-    description: 'Patient education from Dr. Lisa M. Patel — preventive care and health topics for Twin Falls patients.',
+    title: 'Health Blog | Meridian Family Medicine, ID',
+    description: 'Patient education from Dr. Emily Johnson — preventive care and health topics for Meridian patients.',
     images: [`${SITE_URL}/og-image.jpg`],
   },
 }
@@ -57,7 +57,7 @@ export default function BlogPage() {
           </nav>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">Health &amp; Wellness Blog</h1>
           <p className="text-white/70 mt-2 max-w-xl">
-            Patient education articles from Dr. Lisa M. Patel, MD, FAAFP — written to help you
+            Patient education articles from Dr. Emily Johnson, MD, FAAFP — written to help you
             understand your health and make informed decisions.
           </p>
         </div>
@@ -134,7 +134,7 @@ export default function BlogPage() {
           </h2>
           <p className="text-white/70 mb-8 max-w-lg mx-auto">
             Don&apos;t rely solely on internet searches for medical guidance. Schedule a visit with
-            Dr. Patel for personalized, evidence-based answers.
+            Dr. Johnson for personalized, evidence-based answers.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

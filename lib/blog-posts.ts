@@ -4,18 +4,18 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'annual-physical-what-to-expect',
     title: 'What Happens at an Annual Physical? A Complete Guide for Adults',
-    excerpt: 'Not sure what to expect at your annual physical exam? Learn what screenings, labs, and conversations to expect from your Twin Falls family doctor.',
-    keyword: 'annual physical exam Twin Falls Idaho',
+    excerpt: 'Not sure what to expect at your annual physical exam? Learn what screenings, labs, and conversations to expect from your Meridian family doctor.',
+    keyword: 'annual physical exam Meridian Idaho',
     author: 'Dr. Maria Rodriguez, MD',
     date: '2026-04-15',
     readTime: '7 min read',
     body: `<p>Many adults put off their annual physical because they feel fine — and that is exactly why the appointment matters. A yearly wellness visit with your family doctor is not about diagnosing illness. It is about catching the early warning signs of conditions that develop silently, long before they cause symptoms.</p>
 
-<p>At Cornerstone Family Medicine in Twin Falls, Idaho, the annual physical exam is one of the most valuable appointments we offer. Here is a clear breakdown of what happens during your visit and why each component matters.</p>
+<p>At Cornerstone Family Medicine in Meridian, Idaho, the annual physical exam is one of the most valuable appointments we offer. Here is a clear breakdown of what happens during your visit and why each component matters.</p>
 
 <h2>Vital Signs and Physical Examination</h2>
 
-<p>Every annual physical exam in Twin Falls begins with a set of vital signs: blood pressure, heart rate, temperature, respiratory rate, and oxygen saturation. These numbers give your doctor a snapshot of your cardiovascular and respiratory health before the conversation even begins.</p>
+<p>Every annual physical exam in Meridian begins with a set of vital signs: blood pressure, heart rate, temperature, respiratory rate, and oxygen saturation. These numbers give your doctor a snapshot of your cardiovascular and respiratory health before the conversation even begins.</p>
 
 <p>Blood pressure is one of the most important readings we take. Hypertension — chronically elevated blood pressure — affects roughly one in three American adults and dramatically increases the risk of stroke, heart attack, and kidney disease. The concerning part is that most people with high blood pressure feel no symptoms at all. A simple cuff reading during your annual physical exam can be the only thing standing between you and a preventable event.</p>
 
@@ -49,25 +49,25 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Immunizations</h2>
 
-<p>Adult vaccines are not just for travel. Your annual physical exam in Twin Falls is an opportunity to review your immunization status and close any gaps. Adults commonly need the influenza vaccine annually, Tdap (tetanus, diphtheria, pertussis) every ten years, the shingles vaccine starting at age 50, pneumococcal vaccine starting at age 65, and COVID-19 updates as recommended. Immunization needs change with age, occupation, travel history, and underlying health conditions — your doctor will tailor recommendations to your specific situation.</p>
+<p>Adult vaccines are not just for travel. Your annual physical exam in Meridian is an opportunity to review your immunization status and close any gaps. Adults commonly need the influenza vaccine annually, Tdap (tetanus, diphtheria, pertussis) every ten years, the shingles vaccine starting at age 50, pneumococcal vaccine starting at age 65, and COVID-19 updates as recommended. Immunization needs change with age, occupation, travel history, and underlying health conditions — your doctor will tailor recommendations to your specific situation.</p>
 
 <h2>The Conversation</h2>
 
 <p>Beyond the exam and labs, your annual physical is protected time with your physician. We discuss your mental health, sleep quality, alcohol and tobacco use, sexual health, family history of disease, and any symptoms you have been dismissing as probably nothing. That last part is important. Primary care practices in the Magic Valley region frequently hear from patients who waited months or years before mentioning a symptom — because they did not want to bother anyone. Your annual physical exam is the right place to ask.</p>
 
-<p>If you are due for your annual physical exam, Dr. Maria Rodriguez and the team at Cornerstone Family Medicine in Twin Falls, Idaho are here to help. Call us at (208) 555-XXXX or book online to schedule your appointment.</p>`,
+<p>If you are due for your annual physical exam, Dr. Maria Rodriguez and the team at Cornerstone Family Medicine in Meridian, Idaho are here to help. Call us at (208) 555-XXXX or book online to schedule your appointment.</p>`,
   },
   {
     slug: 'diabetes-prevention-prediabetes',
     title: 'Prediabetes: The Warning Window That Most People Miss',
-    excerpt: "Prediabetes affects 96 million Americans but 80% don't know they have it. Learn how a Twin Falls family doctor can help you reverse course before it becomes diabetes.",
-    keyword: 'prediabetes treatment Twin Falls family doctor',
+    excerpt: "Prediabetes affects 96 million Americans but 80% don't know they have it. Learn how a Meridian family doctor can help you reverse course before it becomes diabetes.",
+    keyword: 'prediabetes treatment Meridian family doctor',
     author: 'Dr. Maria Rodriguez, MD',
     date: '2026-05-10',
     readTime: '8 min read',
     body: `<p>Ninety-six million Americans have prediabetes. Eighty percent of them do not know it. This is not because prediabetes is difficult to detect — a routine blood test at your doctor's office will reveal it. The problem is that prediabetes causes no symptoms. People feel completely normal while their blood sugar slowly climbs toward a threshold that will permanently alter their health.</p>
 
-<p>The good news is substantial: prediabetes is reversible. With the right intervention, most people can bring their blood sugar back into a healthy range and prevent type 2 diabetes from developing at all. At Cornerstone Family Medicine in Twin Falls, Idaho, prediabetes treatment is one of the most impactful conversations Dr. Maria Rodriguez has with patients — because it is one of the few areas in medicine where we can change the outcome before the damage is done.</p>
+<p>The good news is substantial: prediabetes is reversible. With the right intervention, most people can bring their blood sugar back into a healthy range and prevent type 2 diabetes from developing at all. At Cornerstone Family Medicine in Meridian, Idaho, prediabetes treatment is one of the most impactful conversations Dr. Maria Rodriguez has with patients — because it is one of the few areas in medicine where we can change the outcome before the damage is done.</p>
 
 <h2>What Prediabetes Actually Means</h2>
 
@@ -85,7 +85,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Who Should Be Screened</h2>
 
-<p>The American Diabetes Association recommends screening for all adults beginning at age 35, and earlier for anyone with risk factors. In the Magic Valley region — as in much of the United States — sedentary work patterns, diets high in processed food, and high rates of obesity mean that risk factors are common. Your Twin Falls family doctor should screen you if you have any of the following:</p>
+<p>The American Diabetes Association recommends screening for all adults beginning at age 35, and earlier for anyone with risk factors. In the Magic Valley region — as in much of the United States — sedentary work patterns, diets high in processed food, and high rates of obesity mean that risk factors are common. Your Meridian family doctor should screen you if you have any of the following:</p>
 
 <ul>
   <li>BMI of 25 or higher (23 or higher for Asian Americans)</li>
@@ -114,31 +114,31 @@ export const blogPosts: BlogPost[] = [
 
 <p>Metformin has a well-established safety record with decades of use, low cost, and the additional benefit of modest weight reduction in many patients. The decision to start metformin for prediabetes treatment is individualized — it is a conversation, not a default protocol.</p>
 
-<h2>How Dr. Rodriguez Approaches Prediabetes in Twin Falls</h2>
+<h2>How Dr. Rodriguez Approaches Prediabetes</h2>
 
 <p>When a patient at Cornerstone Family Medicine receives a prediabetes diagnosis, the appointment does not end with the lab result. Dr. Rodriguez takes time to review what the numbers mean, discuss where the patient's specific risk factors lie, and build a realistic plan. This typically involves a structured dietary approach — not a fad diet, but a sustainable reduction in refined carbohydrates and added sugars — along with specific activity targets and a follow-up schedule to track A1c trends every three to six months.</p>
 
 <p>For patients whose numbers normalize, monitoring continues. Prediabetes can return, especially if lifestyle factors drift. Ongoing surveillance is a core part of the care plan, not an afterthought.</p>
 
-<p>If you have been told your blood sugar is a little high — or if you have never been tested — Dr. Maria Rodriguez and the team at Cornerstone Family Medicine in Twin Falls, Idaho are here to help. Prediabetes treatment is most effective when it starts early. Call us at (208) 555-XXXX or book online to schedule your appointment.</p>`,
+<p>If you have been told your blood sugar is a little high — or if you have never been tested — Dr. Maria Rodriguez and the team at Cornerstone Family Medicine in Meridian, Idaho are here to help. Prediabetes treatment is most effective when it starts early. Call us at (208) 555-XXXX or book online to schedule your appointment.</p>`,
   },
   {
     slug: 'children-vs-adults-same-doctor',
     title: 'Why Seeing a Family Doctor Instead of a Specialist Often Leads to Better Care',
-    excerpt: 'Specialists treat one system. A family doctor sees you whole. Learn why continuity of care with a Twin Falls primary care physician often produces better outcomes.',
-    keyword: 'family doctor Twin Falls Idaho primary care',
+    excerpt: 'Specialists treat one system. A family doctor sees you whole. Learn why continuity of care with a Meridian primary care physician often produces better outcomes.',
+    keyword: 'family doctor Meridian Idaho primary care',
     author: 'Dr. Maria Rodriguez, MD',
     date: '2026-06-01',
     readTime: '7 min read',
     body: `<p>The American healthcare system rewards specialization. Cardiologists, endocrinologists, pulmonologists, gastroenterologists — each is an expert in one organ system, trained to drill deep into a narrow field. This expertise is invaluable when you need complex surgery or an unusual diagnosis. But for the vast majority of what ails people — and especially for the management of chronic conditions that develop over years — the data consistently points to a different conclusion: patients with a primary care physician at the center of their care live longer, have fewer hospitalizations, and spend less money on healthcare than those who navigate the system without one.</p>
 
-<p>At Cornerstone Family Medicine in Twin Falls, Idaho, Dr. Maria Rodriguez practices family medicine — a specialty built around the patient, not the disease. Here is why that distinction matters more than most people realize.</p>
+<p>At Cornerstone Family Medicine in Meridian, Idaho, Dr. Maria Rodriguez practices family medicine — a specialty built around the patient, not the disease. Here is why that distinction matters more than most people realize.</p>
 
 <h2>Specialists Treat Conditions. Family Doctors Treat People.</h2>
 
 <p>When you visit a cardiologist, the visit is organized around your heart. When you visit a pulmonologist, it is organized around your lungs. These are appropriate lenses when you are dealing with a complex cardiac arrhythmia or a difficult-to-manage lung disease. But most people do not live in one organ system. They have overlapping conditions — high blood pressure and diabetes and depression and sleep apnea, all interacting with each other and with every medication on the list.</p>
 
-<p>A family doctor in Twin Falls, Idaho coordinates across all of those systems simultaneously. When Dr. Rodriguez adjusts a blood pressure medication, she is also thinking about how it interacts with a patient's kidney function and their history of gout. When a patient mentions fatigue, she is weighing thyroid function, iron levels, sleep quality, mood, and medication side effects in a single clinical encounter — not referring each piece to a separate specialist who will see only their slice.</p>
+<p>A family doctor in Meridian, Idaho coordinates across all of those systems simultaneously. When Dr. Rodriguez adjusts a blood pressure medication, she is also thinking about how it interacts with a patient's kidney function and their history of gout. When a patient mentions fatigue, she is weighing thyroid function, iron levels, sleep quality, mood, and medication side effects in a single clinical encounter — not referring each piece to a separate specialist who will see only their slice.</p>
 
 <p>This is whole-person medicine. It is not a philosophy — it is a clinical approach with measurable outcomes.</p>
 
@@ -148,7 +148,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>That accumulated knowledge changes clinical decisions. It catches things that standardized intake forms do not. Research supports this: patients who have a long-term relationship with a primary care physician have lower all-cause mortality, lower rates of emergency department use, and better management of chronic conditions across the board.</p>
 
-<p>In the Magic Valley region, where many patients face limited access to subspecialty care and long wait times for specialist appointments, a family doctor in Twin Falls, Idaho who can manage a broad range of conditions in-house is not merely a convenience — it is a cornerstone of functional healthcare access.</p>
+<p>In the Magic Valley region, where many patients face limited access to subspecialty care and long wait times for specialist appointments, a family doctor in Meridian, Idaho who can manage a broad range of conditions in-house is not merely a convenience — it is a cornerstone of functional healthcare access.</p>
 
 <h2>Fragmented Care Has a Cost</h2>
 
@@ -175,6 +175,6 @@ export const blogPosts: BlogPost[] = [
 
 <p>The specialist serves the patient. The family doctor holds the whole picture.</p>
 
-<p>If you are looking for a family doctor in Twin Falls, Idaho who will know you as a whole person — not as a collection of organ systems to be parceled out — Dr. Maria Rodriguez and the team at Cornerstone Family Medicine are here to help. Call us at (208) 555-XXXX or book online to schedule your appointment.</p>`,
+<p>If you are looking for a family doctor in Meridian, Idaho who will know you as a whole person — not as a collection of organ systems to be parceled out — Dr. Maria Rodriguez and the team at Cornerstone Family Medicine are here to help. Call us at (208) 555-XXXX or book online to schedule your appointment.</p>`,
   },
 ]

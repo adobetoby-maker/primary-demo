@@ -2,26 +2,26 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CheckCircle, Award, Building2, GraduationCap, Clock } from 'lucide-react'
 
-const SITE_URL = 'https://primarycaretwinfalls.com' // [DEMO] update with real domain
+const SITE_URL = 'https://meridianfamilymedicine-demo.com' // [DEMO] update with real domain
 
 export const metadata: Metadata = {
-  title: 'About Dr. Lisa M. Patel, MD, FAAFP | Primary Care Twin Falls',
+  title: 'About Dr. Emily Johnson, MD, FAAFP | Meridian Family Med',
   description:
-    'Meet Dr. Lisa M. Patel — board-certified family medicine physician with 16 years of experience in Twin Falls, ID. University of Michigan Medical School graduate.',
+    'Meet Dr. Emily Johnson — board-certified family medicine physician with 12 years of experience in Meridian, ID. University of Michigan Medical School graduate.',
   alternates: {
     canonical: `${SITE_URL}/about`,
   },
   openGraph: {
-    title: 'About Dr. Lisa M. Patel, MD, FAAFP | Primary Care Twin Falls',
+    title: 'About Dr. Emily Johnson, MD, FAAFP | Meridian Family Med',
     description:
-      'Meet Dr. Lisa M. Patel — board-certified family medicine physician with 16 years of experience in Twin Falls, ID.',
+      'Meet Dr. Emily Johnson — board-certified family medicine physician with 12 years of experience in Meridian, ID.',
     url: `${SITE_URL}/about`,
-    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Dr. Lisa M. Patel' }],
+    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Dr. Emily Johnson' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Dr. Lisa M. Patel, MD, FAAFP | Primary Care Twin Falls',
-    description: 'Board-certified family medicine physician with 16 years of experience in Twin Falls, ID.',
+    title: 'About Dr. Emily Johnson, MD, FAAFP | Meridian Family Med',
+    description: 'Board-certified family medicine physician with 12 years of experience in Meridian, ID.',
     images: [`${SITE_URL}/og-image.jpg`],
   },
 }
@@ -30,18 +30,18 @@ const physicianSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   '@id': `${SITE_URL}/#physician`,
-  name: 'Dr. Lisa M. Patel',
+  name: 'Dr. Emily Johnson',
   honorificPrefix: 'Dr.',
   honorificSuffix: 'MD, FAAFP',
   givenName: 'Lisa',
   familyName: 'Patel',
   jobTitle: 'Board-Certified Family Medicine Physician',
   description:
-    'Dr. Lisa M. Patel is a board-certified family medicine physician with 16 years of experience, serving patients in Twin Falls, Idaho.',
+    'Dr. Emily Johnson is a board-certified family medicine physician with 12 years of experience, serving patients in Meridian, Idaho.',
   medicalSpecialty: 'https://schema.org/GeneralPractice',
   worksFor: {
     '@type': 'MedicalOrganization',
-    name: 'Primary Care of Twin Falls',
+    name: 'Meridian Family Medicine',
     url: SITE_URL,
   },
   affiliation: [
@@ -128,10 +128,10 @@ export default function AboutPage() {
             </ol>
           </nav>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
-            About Dr. Lisa M. Patel
+            About Dr. Emily Johnson
           </h1>
           <p className="text-white/70 mt-2">
-            Board-Certified Family Medicine &mdash; Twin Falls, Idaho
+            Board-Certified Family Medicine &mdash; Meridian, Idaho
           </p>
         </div>
       </section>
@@ -144,7 +144,7 @@ export default function AboutPage() {
             <div>
               <div
                 className="rounded-2xl overflow-hidden bg-gray-100 aspect-[3/4] flex items-center justify-center max-w-sm mx-auto lg:mx-0"
-                aria-label="Dr. Lisa M. Patel [DEMO — replace with real physician photo]"
+                aria-label="Dr. Emily Johnson [DEMO — replace with real physician photo]"
               >
                 <div className="text-center p-10">
                   <div
@@ -153,7 +153,7 @@ export default function AboutPage() {
                   >
                     LP
                   </div>
-                  <p className="text-gray-600 font-semibold">Dr. Lisa M. Patel</p>
+                  <p className="text-gray-600 font-semibold">Dr. Emily Johnson</p>
                   <p className="text-gray-400 text-sm mt-1">MD, FAAFP</p>
                   <p className="text-gray-300 text-xs mt-4 italic">[DEMO] Replace with real physician photo</p>
                 </div>
@@ -183,7 +183,7 @@ export default function AboutPage() {
                 className="text-3xl font-bold mb-1"
                 style={{ color: '#064e3b' }}
               >
-                Dr. Lisa M. Patel, MD, FAAFP
+                Dr. Emily Johnson, MD, FAAFP
               </h2>
               <p className="text-gray-500 font-medium mb-6">
                 Board-Certified Family Medicine Physician &bull; 16 Years in Practice
@@ -192,14 +192,14 @@ export default function AboutPage() {
               {/* [DEMO] replace with real physician bio */}
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Dr. Lisa M. Patel is a board-certified family medicine physician who has spent her
+                  Dr. Emily Johnson is a board-certified family medicine physician who has spent her
                   career building something that is increasingly rare in modern healthcare: true
                   longitudinal relationships with patients across every stage of life. She completed
                   her medical training at the University of Michigan Medical School before completing
                   her residency at the UW Family Medicine Residency in Seattle.
                 </p>
                 <p>
-                  Over 16 years of clinical practice in Twin Falls, Dr. Patel has cared for infants,
+                  Over 16 years of clinical practice in Meridian, Dr. Johnson has cared for infants,
                   teenagers, adults managing complex chronic conditions, and elderly patients requiring
                   specialized geriatric attention. Her philosophy is grounded in the belief that
                   exceptional primary care is about understanding the whole person: their health
@@ -208,7 +208,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Board-certified by the American Board of Family Medicine and honored with Fellow
-                  status (FAAFP) by the American Academy of Family Physicians, Dr. Patel holds
+                  status (FAAFP) by the American Academy of Family Physicians, Dr. Johnson holds
                   privileges at St.&nbsp;Luke&apos;s Magic Valley Regional Medical Center. She is
                   actively accepting new patients and is committed to providing accessible,
                   relationship-centered primary care across the Magic Valley.
@@ -292,7 +292,7 @@ export default function AboutPage() {
             this clinic.&rdquo;
           </blockquote>
           <p className="mt-4 text-gray-500 text-sm font-medium">
-            &mdash; Dr. Lisa M. Patel, MD, FAAFP {/* [DEMO] verify quote */}
+            &mdash; Dr. Emily Johnson, MD, FAAFP {/* [DEMO] verify quote */}
           </p>
         </div>
       </section>
@@ -308,7 +308,7 @@ export default function AboutPage() {
             Schedule Your First Appointment
           </h2>
           <p className="text-white/70 mb-8 max-w-lg mx-auto">
-            Dr. Patel is accepting new patients of all ages. Same-Day &amp; Next-Day Sick
+            Dr. Johnson is accepting new patients of all ages. Same-Day &amp; Next-Day Sick
             Appointments available for acute illness.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

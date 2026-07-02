@@ -2,26 +2,26 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Clock, Phone } from 'lucide-react'
 
-const SITE_URL = 'https://primarycaretwinfalls.com' // [DEMO] update with real domain
+const SITE_URL = 'https://meridianfamilymedicine-demo.com' // [DEMO] update with real domain
 
 export const metadata: Metadata = {
-  title: 'Book Appointment | Primary Care of Twin Falls, ID',
+  title: 'Book Appointment | Meridian Family Medicine, ID',
   description:
-    'Schedule an appointment with Dr. Lisa M. Patel in Twin Falls, ID. Same-Day & Next-Day Sick Appointments available. New and existing patients welcome.',
+    'Schedule an appointment with Dr. Emily Johnson in Meridian, ID. Same-Day & Next-Day Sick Appointments available. New and existing patients welcome.',
   alternates: {
     canonical: `${SITE_URL}/appointments`,
   },
   openGraph: {
-    title: 'Book Appointment | Primary Care of Twin Falls, ID',
+    title: 'Book Appointment | Meridian Family Medicine, ID',
     description:
-      'Schedule an appointment with Dr. Lisa M. Patel in Twin Falls, ID. Same-Day & Next-Day Sick Appointments available.',
+      'Schedule an appointment with Dr. Emily Johnson in Meridian, ID. Same-Day & Next-Day Sick Appointments available.',
     url: `${SITE_URL}/appointments`,
-    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Book Appointment Twin Falls' }],
+    images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: 'Book Appointment Meridian' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Book Appointment | Primary Care of Twin Falls, ID',
-    description: 'Schedule with Dr. Lisa M. Patel in Twin Falls, ID. New and existing patients welcome.',
+    title: 'Book Appointment | Meridian Family Medicine, ID',
+    description: 'Schedule with Dr. Emily Johnson in Meridian, ID. New and existing patients welcome.',
     images: [`${SITE_URL}/og-image.jpg`],
   },
 }
@@ -367,7 +367,7 @@ export default function AppointmentsPage() {
                     'Insurance card',
                     'List of current medications & dosages',
                     'Prior medical records (if available)',
-                    'List of questions for Dr. Patel',
+                    'List of questions for Dr. Johnson',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2">
                       <span className="text-emerald-500 font-bold mt-0.5" aria-hidden="true">✓</span>
